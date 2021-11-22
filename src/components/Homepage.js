@@ -15,7 +15,7 @@ const Homepage = () => {
               <a href="https://github.com/ldw5" target="_blank" rel="noopenner noreferrer"><FaGithub/></a>
             </li>
             <li>
-              <a href="LDW_Resume.pdf" target="_blank" rel="noopenner noreferrer"><FaFilePdf/></a>
+              <a href="./public/LDW_Resume.pdf" target="_blank" rel="noopenner noreferrer"><FaFilePdf/></a>
             </li>
           </ul>
         </div>
