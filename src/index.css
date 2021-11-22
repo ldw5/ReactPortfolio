@@ -102,3 +102,45 @@ ul {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+@media (max-width: 992px) {
+  .homepage h1 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-btn {
+    right: 30px;
+  }
+
+  .homepage h1 {
+    font-size: 30px;
+  }
+
+  .homepage p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .homepage ul li a {
+    font-size: 24px;
+  }
+
+  .contacts ul li a {
+    font-size: 18px;
+  }
+
+  .contacts h1,
+  .projects h1 {
+    padding: 50px 30px;
+  }
+
+  .projects .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .projects .cards p {
+    font-size: 15px;
+  }
+}
