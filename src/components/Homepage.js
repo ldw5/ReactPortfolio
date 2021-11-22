@@ -1,7 +1,22 @@
+import {FaGithub, FaLinkedin} from "react-icons/fa"
+
 const Homepage = () => {
     return (
       <>
-      <h1>Landrell Williams</h1>
+      <section className="homepage">
+        <div className="overlay">
+        <h1>Landrell Williams</h1>
+        <p>Full Stack Web Developer</p>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/landrell-williams-a9bb447a/" target="_blank" rel="noopenner noreferrer"><FaLinkedin/></a>
+            </li>
+            <li>
+              <a href="https://github.com/ldw5" target="_blank" rel="noopenner noreferrer"><FaGithub/></a>
+            </li>
+          </ul>
+        </div>
+      </section>   
       </>
     );
   }
