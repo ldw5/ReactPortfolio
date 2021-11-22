@@ -1,11 +1,14 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Homepage from "./components/Homepage"
 import Projects from "./pages/Projects"
-//import Error from "./pages/error"
+import Menu from "./components/menu"
+import Error from "./pages/error"
+import Contact from "./pages/Contact"
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Menu/>
       <Switch>
       <Route path="/" exact>
           <Homepage />
@@ -13,7 +16,12 @@ const App = () => {
         <Route path="/projects">
           <Projects />
         </Route>
-        
+        <Route path="/contact-me">
+          <Contact />
+        </Route>
+        <Route path="*">
+          <Error />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

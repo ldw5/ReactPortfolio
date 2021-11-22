@@ -61,3 +61,44 @@ ul {
 .homepage p {
   font-size: 35px;
 }
+
+.menu-btn{
+  right: 80px;
+  margin-top: 50px;
+  z-index: 9999999;
+  position: absolute;
+}
+
+.menu-btn button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 34px;
+  color: #fff;
+}
+
+.header{
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header nav ul li {
+  margin: 20px 0;
+}
+
+.header.open {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
