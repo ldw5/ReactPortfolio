@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin} from "react-icons/fa"
+import {FaGithub, FaLinkedin, FaFilePdf} from "react-icons/fa"
 
 const Homepage = () => {
     return (
@@ -13,6 +13,9 @@ const Homepage = () => {
             </li>
             <li>
               <a href="https://github.com/ldw5" target="_blank" rel="noopenner noreferrer"><FaGithub/></a>
+            </li>
+            <li>
+              <a href="LDW_Resume.pdf" target="_blank" rel="noopenner noreferrer"><FaFilePdf/></a>
             </li>
           </ul>
         </div>

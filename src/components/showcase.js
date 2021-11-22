@@ -7,7 +7,7 @@ export const projects = [
     desc: "Code Refactor",
     github: "https://github.com/ldw5/Horiseon-code-refactor-demo",
     demo: "https://ldw5.github.io/Horiseon-code-refactor-demo/",
-    image: "./images/horison.png",
+    image: "../public/images/horison.png",
   },
   {
     id: uuidv4(),

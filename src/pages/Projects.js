@@ -8,8 +8,8 @@ const Projects = () => {
     return (
       <>
       <section className='projects'>
-      <h1>Projects Page</h1>
-      <div>
+      <h1>Projects</h1>
+      <div className='cards'>
       {cards.map(({ id, title, desc, github, demo, image }) => (
             <article key={id}>
               <img src={image} alt={title} />
