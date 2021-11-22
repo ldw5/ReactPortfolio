@@ -3,7 +3,7 @@ import {MdOutlinePhonelinkRing,MdEmail } from 'react-icons/md';
 const Contact = () => {
     return (
       <>
-      <section>
+      <section className='contact'>
         <h1>Contact Me</h1>
         <ul>
         <li>
