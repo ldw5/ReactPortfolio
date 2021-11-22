@@ -11,7 +11,7 @@ const App = () => {
     <BrowserRouter>
     <Menu/>
       <Switch>
-      <Route path="/" exact>
+      <Route path="/reactportfolio" exact>
           <Homepage />
         </Route>
         <Route path="/projects">
