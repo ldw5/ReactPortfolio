@@ -4,6 +4,7 @@ import Projects from "./pages/Projects"
 import Menu from "./components/menu"
 import Error from "./pages/error"
 import Contact from "./pages/Contact"
+import About from "./pages/about"
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         </Route>
         <Route path="/contact-me">
           <Contact />
+        </Route>
+        <Route path="/about-me">
+          <About />
         </Route>
         <Route path="*">
           <Error />

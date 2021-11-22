@@ -16,4 +16,9 @@ export const navigation = [
     title: "Contact Me",
     url: "/contact-me",
   },
+  {
+    id: uuidv4(),
+    title: "About Me",
+    url: "/about-me",
+  },
 ]
