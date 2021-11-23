@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Homepage from "./components/Homepage"
 import Projects from "./pages/Projects"
 import Menu from "./components/menu"
-import Error from "./pages/error"
+//import Error from "./pages/error"
 import Contact from "./pages/Contact"
 import About from "./pages/about"
 
@@ -23,8 +23,8 @@ const App = () => {
         <Route path="/about-me">
           <About />
         </Route>
-        <Route path="*">
-          <Error />
+        <Route path="/">
+          <Homepage />
         </Route>
       </Switch>
     </BrowserRouter>
